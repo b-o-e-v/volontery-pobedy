@@ -1,0 +1,15 @@
+.root {
+  margin: 0;
+  margin: 0;
+  background-color: #014d81;
+}
+
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.navigation__list {
+  list-style-type: none;
+}
+/*# sourceMappingURL=style.css.map */
