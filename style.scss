@@ -21,15 +21,20 @@ $shadow: #02355c;
 }
 
 .page {
+    box-sizing: border-box;
+    font-family: 'Inter';
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 40px;
 }
 
 .header {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
     margin: 0 auto;
     width: 100%;
     min-height: 300px;
+    border-left: 5px solid $two;
     background-color: #fff;
     clip-path: polygon(
         0 0,
@@ -40,8 +45,22 @@ $shadow: #02355c;
     );
 }
 
-.logo {
+.header__title {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 30px 40px 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 
+.header__subtitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .navigation {
@@ -66,6 +85,7 @@ $shadow: #02355c;
     min-height: 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-left: 5px solid $two;
 }
 
 .cover__text {
