@@ -72,7 +72,7 @@
 }
 
 .cover__img {
-  background-image: url(./images/sl1.jpg);
+  background-image: url(./images/slide-bar/sl1.jpg);
   background-size: 75vw;
   background-position: right 1px;
   width: 119.5%;
@@ -84,7 +84,7 @@
   position: relative;
 }
 
-.cover__btn {
+.cover__next {
   position: absolute;
   right: 20px;
   bottom: 20px;
@@ -100,7 +100,29 @@
   transition: background-image 0.5s;
 }
 
-.cover__btn:hover {
+.cover__next:hover {
+  background-image: url(./images/next-white.png);
+}
+
+.cover__back {
+  position: absolute;
+  right: 90px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-image: url(./images/next.png);
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: background-image 0.5s;
+  transition: background-image 0.5s;
+}
+
+.cover__back:hover {
   background-image: url(./images/next-white.png);
 }
 /*# sourceMappingURL=style.css.map */
