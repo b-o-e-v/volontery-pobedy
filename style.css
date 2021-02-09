@@ -1,3 +1,33 @@
+@-webkit-keyframes puls {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes puls {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 .root {
   margin: 0;
   margin: 0;
@@ -46,14 +76,7 @@
   width: 70%;
   -webkit-filter: drop-shadow(0 0 30px #02355c);
   filter: drop-shadow(0 0 30px #02355c);
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-}
-
-.cover__img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-animation: puls linear infinite 1.5s;
+          animation: puls linear infinite 1.5s;
 }
 /*# sourceMappingURL=style.css.map */
