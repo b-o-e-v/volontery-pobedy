@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c854ec58.chunk.css",
+    "main.js": "/static/js/main.fc3bff92.chunk.js",
+    "main.js.map": "/static/js/main.fc3bff92.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.406dd86f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.406dd86f.js.map",
+    "static/js/2.db39837d.chunk.js": "/static/js/2.db39837d.chunk.js",
+    "static/js/2.db39837d.chunk.js.map": "/static/js/2.db39837d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c854ec58.chunk.css.map": "/static/css/main.c854ec58.chunk.css.map",
+    "static/js/2.db39837d.chunk.js.LICENSE.txt": "/static/js/2.db39837d.chunk.js.LICENSE.txt",
+    "static/media/separator.css": "/static/media/Переход.9661d34f.jpg",
+    "static/media/quantity.css": "/static/media/Карта.3e48d347.svg",
+    "static/media/master.css": "/static/media/Ценности.0e0ea781.svg",
+    "static/media/header.css": "/static/media/logo-page.1542a398.svg",
+    "static/media/description.css": "/static/media/кружки.fc40237d.png",
+    "static/media/пленарка.118be2ed.png": "/static/media/пленарка.118be2ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.406dd86f.js",
+    "static/js/2.db39837d.chunk.js",
+    "static/css/main.c854ec58.chunk.css",
+    "static/js/main.fc3bff92.chunk.js"
+  ]
+}
